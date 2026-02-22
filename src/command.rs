@@ -139,7 +139,7 @@ pub fn run() -> anyhow::Result<()> {
                     } else {
                         match display::print_lookup_result(&mut stdout, &addr, &result) {
                             Ok(_) => {}
-                            Err(e) => log::error!("error: Error printing to stdout: {e}"),
+                            Err(e) => log::error!("Error printing to stdout: {e}"),
                         }
                     }
                 }
