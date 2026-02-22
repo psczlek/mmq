@@ -1,0 +1,17 @@
+[package]
+name = "mmq"
+version = "0.0.1"
+description = "mmdb lookup utility"
+categories = ["command-line-utilities"]
+readme = "README.md"
+license = "MIT"
+edition = "2024"
+
+[dependencies]
+anyhow = "1.0.102"
+clap = { version = "4.5.60", features = ["cargo"] }
+maxminddb = { version = "0.27.3", features = ["mmap"] }
+rayon = "1.11.0"
+log = "0.4.29"
+env_logger = "0.11.9"
+color-print = "0.3.7"
