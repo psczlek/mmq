@@ -46,7 +46,10 @@ pub fn print_lookup_result(
 
     let longest = fields.keys().map(|k| k.len()).max().unwrap_or(0);
 
-    for key in fields.keys() {
+    let mut keys = fields.keys().collect::<Vec<_>>();
+    keys.sort();
+
+    for key in keys {
         let value = &fields[key];
 
         if *key == "Subdivisions" {

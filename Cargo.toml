@@ -1,6 +1,6 @@
 [package]
 name = "mmq"
-version = "0.0.1"
+version = "0.0.2"
 description = "mmdb lookup utility"
 categories = ["command-line-utilities"]
 readme = "README.md"
