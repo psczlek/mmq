@@ -9,9 +9,9 @@ edition = "2024"
 
 [dependencies]
 anyhow = "1.0.102"
-clap = { version = "4.5.60", features = ["cargo"] }
-maxminddb = { version = "0.27.3", features = ["mmap"] }
-rayon = "1.11.0"
+clap = { version = "4.6.1", features = ["cargo"] }
+maxminddb = { version = "0.28.1", features = ["mmap"] }
+rayon = "1.12.0"
 log = "0.4.29"
-env_logger = "0.11.9"
+env_logger = "0.11.10"
 color-print = "0.3.7"
